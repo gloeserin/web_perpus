@@ -13,6 +13,9 @@
   <div class="input-box button">
     <input type="Submit" value="Login Now">
   </div>
+  <div class="text">
+    <h3>Don't have an account? <a href="/register">Register now</a></h3>
+  </div>
 </form>
 </div>
 </div>

@@ -17,7 +17,9 @@
     <link href="assets/css/slick.css" rel="stylesheet">
     <!-- Theme color -->
     <link id="switcher" href="{{asset('assets/css/style.css')}}" rel="stylesheet">
+    <link id="switcher" href="{{asset('assets/css/landing.css')}}" rel="stylesheet">
     <link id="switcher" href="{{asset('assets/css/dashboard.css')}}" rel="stylesheet">
+    <link id="switcher" href="{{asset('assets/css/form.css')}}" rel="stylesheet">
     <link id="switcher" href="{{asset('assets/css/slick.css')}}" rel="stylesheet">
 
 </head>

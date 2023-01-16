@@ -47,7 +47,8 @@
 <!-- CONTENT -->
 <section id="content">
     <!-- NAVBAR -->
-    <nav>
+    @yield('main')
+    {{-- <nav>
         <i class='bx bx-menu' ></i>
         <a href="#" class="nav-link">Categories</a>
         <form action="#">
@@ -203,7 +204,7 @@
                 </ul>
             </div>
         </div>
-    </main>
+    </main> --}}
     <!-- MAIN -->
 </section>
 <!-- CONTENT -->

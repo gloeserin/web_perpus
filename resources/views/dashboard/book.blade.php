@@ -56,28 +56,28 @@
                   </div>
                   <div class="card-body">
                       <div class="row align-items-start">
-                          <div class="col-sm-6">
+                          <div class="col-sm-12">
                               <label>Title</label>
                               <input type="text" class="form-control" name="title">         
                           </div>
                       </div>
                       <br>
                       <div class="row align-items-start">
-                          <div class="col-sm-6">
+                          <div class="col-sm-12">
                               <label>Writer</label>
                               <input type="text" class="form-control" name="writer">
                           </div>
                         </div>
                         <br>
                       <div class="row align-items-start">
-                        <div class="col-sm-6">
+                        <div class="col-sm-12">
                             <label>Publisher</label>
                             <input type="text" class="form-control" name="publisher" type-currency="IDR">
                         </div>
                      </div>
                      <br>
                       <div class="row align-items-start">
-                        <div class="col-sm-6">
+                        <div class="col-sm-12">
                             <label>Category Book</label>
                             <select name="category_id" class="form-control">
                               @foreach ($categories as $category)
@@ -88,14 +88,14 @@
                         </div>
                         <br>
                       <div class="row align-items-start">
-                       <div class="col-sm-6">
+                       <div class="col-sm-12">
                             <label>Synopsis</label>
                             <input type="text" class="form-control" name="synopsis" type-currency="IDR">
                         </div>
                         </div>
                         <br>
                       <div class="row align-items-start">
-                        <div class="col-sm-6">
+                        <div class="col-sm-12">
                             <label>No ISBN</label>
                             <input type="text" class="form-control" name="isbn" type-currency="IDR">
                         </div>
@@ -113,9 +113,9 @@
                             <input type="file" id="file" name="file">
                         </div>
                       </div>
-                      <br>
+                      
                       <div class="row align-items-start">
-                         <button type="submit" class="bg-blue-500">Submit</button>
+                         <button type="submit" class="button3">Submit</button>
                       </div>
 
                     </div>
